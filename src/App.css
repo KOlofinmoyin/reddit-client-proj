@@ -1,38 +1,66 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  border-radius: 5px;
+}
+
+.title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  /* background-image: linear-gradient(to right, #FE4880, #FFCE00); */
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header input {
+  display: inline-block;
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  background: none;
+  outline: none;
+  border: none;
+  appearance: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header:before{
+  /* content:url('./components/Header/reddit-xxl.png'); */
+  background: url('./components/Header/reddit-xxl.png');
+  background-repeat: no-repeat; 
+  content: 'Reddit';
+  display: inline-block;
+  color: #7D59FF;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.post article {
+  padding: 30px 15px;
+  background-color: #FFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post article a {
+  text-decoration: none;
+}
+
+.post article h2{
+  color: #212121;
+}
+
+.post article:nth-child(2n){
+  background-color:#F3F3F3;
 }
