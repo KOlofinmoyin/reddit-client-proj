@@ -2,6 +2,8 @@
 
 ### Mockup
 ![reddit-mockup](https://user-images.githubusercontent.com/33905131/160718421-3557c199-3464-40b4-bfa8-609da85979f5.jpg)
+<img src="./reddit-mockup.jpg" width="500"/>
+<img src="https://user-images.githubusercontent.com/33905131/160718421-3557c199-3464-40b4-bfa8-609da85979f5.jpg" width="500" />
 
 ### v0.4 (in-progress)
 
