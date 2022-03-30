@@ -39,7 +39,7 @@ header input {
 
 header:before{
   /* content:url('./components/Header/reddit-xxl.png'); */
-  background: url('./components/Header/reddit-xxl.png');
+  background: url('./containers/Header/reddit-xxl.png');
   background-repeat: no-repeat; 
   content: 'Reddit';
   display: inline-block;
