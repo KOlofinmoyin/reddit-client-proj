@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: montserrat, sans-serif;
+  /* font-family: IBMPlexSans, Arial, sans-serif; */
 }
 
 img {
@@ -10,7 +11,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .title {
