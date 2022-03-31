@@ -7,12 +7,10 @@ const Post = ({post}) => {
         <h2 className="title">{post.title}</h2>
         </a>
         <img src={post.url_overridden_by_dest} alt={post.description}/>
-        <br/>
-        <br/>
-        <hr/>
-        <br/>
+        
+        <div className="reactions">
         Posted by <span>{post.author} </span> <span>{Math.floor(post.created_utc)}hours ago </span>     <span>{post.num_comments}</span> 
-
+        </div>
     </article>
   )
 }
