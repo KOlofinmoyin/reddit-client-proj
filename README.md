@@ -12,6 +12,17 @@ An attempt to recreate the `/r/pics` subreddit theme.
 ### Pre-requisites:
 - install `node`
 
+### Technologies used:
+- HTML
+- CSS
+- JavaScript
+- React
+- ~Redux~
+- ~Jest, Enzyme, and Selenium~
+- Git and GitHub
+- Command line and file navigation
+- Wireframing
+
 ### Setup
 - clone repository
 - type `npm start` to run the program
