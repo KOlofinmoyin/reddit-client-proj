@@ -5,7 +5,7 @@ const Header = ({subreddit, setSubreddit}) => {
   return (
     <div>
       <header>
-        <input type="text" className="search" value="pics" value={subreddit} onChange={(e)=> setSubreddit(e.target.value)}/>
+        <input type="text" className="search" value={subreddit} onChange={(e)=> setSubreddit(e.target.value)}/>
       </header>
     </div>
   );
