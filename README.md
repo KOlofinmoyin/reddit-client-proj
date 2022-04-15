@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5b37de0-fdb2-41a5-89cf-eca5dbcdd5a3/deploy-status)](https://app.netlify.com/sites/inquisitive-mandazi-7323c5/deploys)
+
 # REDDIT - /r/pics subreddit
 
 ### Mockup
