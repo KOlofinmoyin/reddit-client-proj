@@ -38,7 +38,7 @@ header {
   width: 50%;
 }
 
-header input {
+header search {
   display: inline-block;
   color: #000;
   font-size: 32px;

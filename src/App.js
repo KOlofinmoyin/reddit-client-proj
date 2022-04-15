@@ -2,7 +2,7 @@ import {React, useState, useEffect } from "react";
 import "./App.css";
 import Header from "./containers/Header/Header";
 import Posts from "./containers/Posts/Posts";
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   const [posts, setPosts] = useState([]);

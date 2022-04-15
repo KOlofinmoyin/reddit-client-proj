@@ -1,4 +1,3 @@
-import Header from '../Header/Header';
 import Post from '../../components/Post/Post.js'
 
 const Posts = ({posts}) => {
